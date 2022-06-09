@@ -92,10 +92,27 @@ function Profile() {
           Follow me and like my post
         </h6>
       </div>
-      <div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "row",
+        }}
+      >
         <button
           style={{
             background: "#FF7674",
+            margin: "1% 2%",
+            height: "35px",
+            width: "190px",
+            borderRadius: "10px",
+            border: "none",
+            fontStyle: "normal",
+            fontWeight: "700",
+            fontSize: "20px",
+            lineHeight: "24px",
+            color: "#F8F8F8",
           }}
         >
           Follow
@@ -103,11 +120,23 @@ function Profile() {
         <button
           style={{
             background: "#FF7674",
+            margin: "1% 2%",
+            height: "35px",
+            width: "190px",
+            borderRadius: "10px",
+            border: "none",
+            fontStyle: "normal",
+            fontWeight: "700",
+            fontSize: "20px",
+            lineHeight: "24px",
+            color: "#F8F8F8",
           }}
         >
-          Follow
+          Messages
         </button>
       </div>
+
+      <div></div>
     </>
   );
 }
