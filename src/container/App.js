@@ -1,14 +1,10 @@
-import { createGlobalStyle } from "styled-components";
+import "../style/main.css";
 import AppRoutes from "../Routes/AppRoutes";
 
-
 function App() {
-
-
   return (
-    <div className="App">
-    
-      <AppRoutes/>
+    <div className="main">
+      <AppRoutes />
     </div>
   );
 }

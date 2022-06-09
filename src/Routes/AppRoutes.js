@@ -23,8 +23,11 @@ export default class AppRoutes extends Component {
         <GlobalStyled />
         <Router>
           <Routes>
+
             <Route path="/login" element={<Login/>}/>
             <Route path="/register" element={<Register/>}/>
+
+
             <Route exact path="/search" element={<Search />} />
             <Route exact path="/profile" element={<Profile />} />
             <Route exact path="/" element={<Homepage />} />

@@ -16,7 +16,7 @@ export const FooterDiv = styled.div`
 export const Ulfooter = styled.ul`
     display: flex;
     justify-content: space-around;
-    box-sizing: border-box;
+
 
 `
 
