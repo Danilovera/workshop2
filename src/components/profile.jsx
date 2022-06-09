@@ -136,7 +136,82 @@ function Profile() {
         </button>
       </div>
 
-      <div></div>
+      <div style={{}}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexDirection: "row",
+            width: "100%",
+          }}
+        >
+          <h6
+            style={{
+              fontFamily: "Balsamiq Sans",
+
+              margin: "0 5%",
+              fontStyle: "normal",
+              fontWeight: "400",
+              fontSize: "16px",
+              lineHeight: "19px",
+            }}
+          >
+            Photos
+          </h6>
+          <h6
+            style={{
+              fontFamily: "Balsamiq Sans",
+              margin: "0 5%",
+              fontStyle: "normal",
+              fontWeight: "400",
+              fontSize: "16px",
+              lineHeight: "19px",
+            }}
+          >
+            Videos
+          </h6>
+          <h6
+            style={{
+              fontFamily: "Balsamiq Sans",
+              margin: "0 5%",
+              fontStyle: "normal",
+              fontWeight: "400",
+              lineHeight: "19px",
+            }}
+          >
+            Album
+          </h6>
+          <h6
+            style={{
+              fontFamily: "Balsamiq Sans",
+              margin: "0 5%",
+              fontStyle: "normal",
+              fontWeight: "400",
+              fontSize: "16px",
+              lineHeight: "19px",
+            }}
+          >
+            Tag
+          </h6>
+        </div>
+      </div>
+      <div style={{ width: "100%", height: "600px" }}>
+        {products.map(data => (
+          <img
+            style={{
+              width: "190px",
+              maxHeight: "190px",
+              margin: "2% 5%",
+
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            src={data.img}
+            alt="alt"
+          />
+        ))}
+      </div>
     </>
   );
 }
