@@ -7,7 +7,6 @@ import Search from "../components/search";
 import Footer from "../container/Footer";
 
 export default class AppRoutes extends Component {
-    
   render() {
     const GlobalStyled = createGlobalStyle`
     body{
@@ -15,19 +14,17 @@ export default class AppRoutes extends Component {
       padding: 0px;
       box-sizing: border-box;
     }
-    `
+    `;
     return (
       <div>
-
-      <GlobalStyled/>
+        <GlobalStyled />
         <Router>
           <Routes>
-            
             <Route exact path="/search" element={<Search />} />
-            <Route exact path="/search" element={<Profile />} />
+            <Route exact path="/profile" element={<Profile />} />
             <Route exact path="/" element={<Homepage />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </Router>
       </div>
     );

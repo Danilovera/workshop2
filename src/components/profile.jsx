@@ -1,7 +1,14 @@
 import React from "react";
+import getData from "../helpers/getData";
 
 function Profile() {
-  return <div>Profile</div>;
+  const { data } = getData;
+  console.log(data);
+  return (
+    <>
+      <img alt="TopBackground" />
+    </>
+  );
 }
 
 export default Profile;
