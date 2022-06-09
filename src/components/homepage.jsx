@@ -6,7 +6,6 @@ import {
   AiOutlineMessage,
   AiOutlineSend,
 } from "react-icons/ai";
-import Histories from "./histories";
 
 export default function Homepage() {
   const [products, setProduct] = useState([]);
@@ -24,7 +23,6 @@ export default function Homepage() {
 
   return (
     <div>
-      <Histories />
       {products.map(data => (
         <Card style={{ width: "25rem" }}>
           <Card.Img variant="top" src={data.img} />

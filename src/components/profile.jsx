@@ -67,7 +67,7 @@ function Profile() {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
-          margin: "5% 0",
+          margin: "3% 0",
         }}
       >
         <h3
@@ -75,16 +75,38 @@ function Profile() {
             margin: "1% 0",
           }}
         >
-        </h3           style={{
+          Jennie Kim
+        </h3>
+        <h5
+          style={{
             margin: "1% 0",
-          }}>
-          Jenn ie Kim
-        <h5           style={{
+          }}
+        >
+          J. Hello Guys
+        </h5>
+        <h6
+          style={{
             margin: "1% 0",
-          }}>J. Hello Guys</h5>
-        <h6           style={{
-            margin: "1% 0",
-          }}>Follow me and like my post</h6>
+          }}
+        >
+          Follow me and like my post
+        </h6>
+      </div>
+      <div>
+        <button
+          style={{
+            background: "#FF7674",
+          }}
+        >
+          Follow
+        </button>
+        <button
+          style={{
+            background: "#FF7674",
+          }}
+        >
+          Follow
+        </button>
       </div>
     </>
   );
